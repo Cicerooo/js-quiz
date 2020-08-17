@@ -1,0 +1,7 @@
+{
+    "excludedFiles": ["reset.less", "box-sizing.less"],
+    "propertyOrdering": false,
+    "newlineAfterBlock": false,
+    "spaceBeforeBrace": false,
+    "stringQuotes": false
+}

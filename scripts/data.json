@@ -1,0 +1,97 @@
+{
+    "quiz":{
+        "sport": [
+            {
+                "question": "Which one is correct team name in NBA?",
+                "options": [
+                    "New York Bulls",
+                    "Los Angeles Kings",
+                    "Huston Rocket"
+                ],
+                "answer": 2,
+                "points": 30
+            },
+            {
+                "question": "Which player holds the record for most consecutive games played?",
+                "options": [
+                    "Stan Musial",
+                    "Pete Rose",
+                    "Cal Ripken Jr.",
+                    "Lou Gehrig",
+                    "some other person"
+                ],
+                "answer": 2,
+                "points": 30
+
+            },
+            {
+                "question": "Which of these teams has never won a championship?",
+                "options": [
+                    "Indiana Pacers",
+                    "Milwaukee Bucks",
+                    "New York Knicks",
+                    "Houston Rockets"
+                ],
+                "answer": 0,
+                "points": 30
+            },
+            {
+                "question": "What jersey number did Wayne Gretzky wear?",
+                "options": [
+                    "9",
+                    "1",
+                    "27",
+                    "99"
+                ],
+                "answer": 3,
+                "points": 30
+            },
+            {
+                "question": "Which legendary head coach is the Super Bowl trophy named after?",
+                "options": [
+                    "Paul Brown",
+                    "Don Shula",
+                    "Vince Lombardi",
+                    "Tom Landry"
+                ],
+                "answer": 2,
+                "points": 30
+            },
+            {
+                "question": "Which country hosted the 2014 World Cup?",
+                "options": [
+                    "Argentina",
+                    "Brazil",
+                    "Germany",
+                    "Spain"
+                ],
+                "answer": 1,
+                "points": 30
+            }
+        ],
+        "maths": [
+            {
+                "question": "5 + 7 = ?",
+                "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "13"
+                ],
+                "answer": 2,
+                "points": 30
+            },
+            {
+                "question": "12 - 8 = ?",
+                "options": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "answer": 3,
+                "points": 30
+            }
+        ]
+    }
+}

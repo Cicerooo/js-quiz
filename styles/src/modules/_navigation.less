@@ -1,0 +1,70 @@
+nav{
+	padding: @margin-size 0px;
+	border-bottom: 2px solid #cccccc;
+	margin-bottom: 2.2rem;
+	a{
+		text-decoration: none;
+		font-size: 16px;
+		color: @nav-text;
+		font-family: 'Ubuntu', sans-serif;
+		line-height: 1.2;
+	}
+	span{
+		color: @nav-text;
+	}
+	i{
+		font-size: 16px;
+		line-height: 0px;
+	}
+
+	.trophy-sect{
+		font-size: 16px;
+		float: right;
+		color: @trophy-color;
+		&#trophy-count{
+			margin-left: 5px;
+		}
+	}
+	.toggle{
+		margin: 0px auto;
+		margin-right: @margin-size;
+		float: right;
+		font-size: 24px;
+		border: 1px solid #cccccc;
+		border-radius: @margin-size;
+		cursor: pointer;
+		padding-right: 20px;
+		line-height: 0px;
+		transition: padding, background-color, 0.2s;
+
+		&.toggle-on{
+			padding-left: 20px;
+			padding-right: 0px !important;
+			background-color: #00aae2;
+		}
+	}
+	.container{
+		position: relative;
+	}
+	.username{
+		display: inline-block;
+		text-align: center;
+		font-size: 16px;
+		cursor: pointer;
+	}
+}
+.dark-theme{
+	.navbar{
+		background-color: #222222;
+		border-color: #1f1f1f;
+		a{
+			color: @dt-text;
+		}
+		.trophy-sect{
+			color: @trophy-color;
+		}
+		span{
+			color: @dt-text;
+		}
+	}
+}

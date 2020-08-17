@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QuizTitle</title>
+ 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+ 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/main.css">
+	<meta charset="utf-8"/>
+
+</head>
+<body>
+	<nav class="navbar">
+		<div class="container">
+			<a href="index.html"><i class="fas fa-arrow-circle-left"></i> Back to menu</a>
+			<a id="trophy-count" class="trophy-sect">100</a> <i class="fas fa-trophy trophy-sect"></i>
+			<span id="toggle" class="toggle"><i class="fas fa-circle"></i></span>
+		</div>
+	</nav>
+	<div class="summary hidden">
+		<div class="container">
+			<h1 class="summary-title">Great job!</h1>
+			<h2 id="correct-amount" class="summary-info">Correct answers:</h2>
+
+			<div class="summary-progress-cont">
+				<div id="correct-ratio" class="summary-progress-bar" style="width:40%"></div>
+			</div>
+
+			<h2 id="wrong-amount" class="summary-info">Wrong answers:</h2>
+
+			<div class="summary-progress-cont">
+					<div id="wrong-ratio" class="summary-progress-bar" style="width:60%"></div>
+			</div>
+
+			<h2 id="points-earned" class="summary-info">Points earned:</h2>
+
+
+			<a id="show-answers" class="summary-button button-answers">See Answers</a>
+			<a href="index.html" id="menu" class="summary-button">Back to menu</a>
+		</div>
+	</div>
+	<div class="question">
+		<div class="container">
+		<h1 class="question-text">My Quiz Title</h1>
+		<h2 class="question-counter">Question 1 of 2</h2>
+		<ul class="question-options options noselect">
+			<li class="option">
+				<a class="option-link" id="A">
+					<span class="option-circle">1</span>
+					<p class="option-text">Question 1</p>
+				</a>
+			</li>
+		</ul>
+		<div class="button-container noselect">
+			<button class="question-button" id="back"><i class="far fa-arrow-alt-circle-left"></i></button>
+			<button class="question-button review" id="review" disabled="true"><i class="far fa-check-circle"></i></button>
+			<button class="question-button hidden" id="close"><i class="far fa-times-circle"></i></button>
+			<button class="question-button" id="next"><i class="far fa-arrow-alt-circle-right"></i></button>
+		</div>
+			<h4 class="question-error">Error</h4>
+		</div>
+	</div>
+
+</body>
+<script src="scripts/data.js"></script>
+<script src="scripts/main.js"></script>
+<script src="scripts/quiz.js"></script>
+</html>

@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+package-lock.json
+
+/node_modules
+*/node_modules
+
+/styles/*.css
